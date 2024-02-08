@@ -1,0 +1,25 @@
+{
+  "main": [
+    {
+      "name": "location",
+      "icon": "FaLocationDot",
+      "des":"4, Charles way, Colombo 3, Sri Lanka",
+      "mail":false
+     
+    },
+    {
+      "name": "FaPhone",
+      "icon": "FaPhone",
+      "des":"+94 112 575 230",
+      "mail":false
+      
+    },
+    {
+      "name": "FaEnvelope ",
+      "icon": "FaEnvelope",
+      "des":"info@onesysconsulting.com.au",
+      "mail":true
+      
+    }
+  ]
+}
