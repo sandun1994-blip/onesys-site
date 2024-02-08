@@ -71,8 +71,8 @@ const Testimonials = ({ data }: { data: PageData }) => {
                           </div>
                           <ul>
                             {item.content.map((data, i) => (
-                              <li key={i} className=" my-8">
-                                <div className="flex items-start text-sm min-h-10">
+                              <li key={i} className=" my-5 ">
+                                <div className="flex items-start text-sm min-h-10 max-h-10">
                                   <GoBookmarkFill
                                     size={20}
                                     className="mr-5 text-black dark:text-white"

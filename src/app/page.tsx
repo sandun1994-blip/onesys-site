@@ -9,9 +9,9 @@ const Home = () => {
     <>
       <SeoMeta />
 
-      <section className=" w-full overflow-hidden  min-h-[70vh] inset-0  bg-transparent bg-cover bg-no-repeat bg-center  ">
+      <section className=" w-full overflow-hidden min-h-[75vh]  md:min-h-[64vh] inset-0  bg-transparent bg-cover bg-no-repeat bg-center  ">
         <video
-          className=" object-cover w-full  h-[77%]  inset-0  bg-white z-[-1] absolute mt-[50px]"
+          className=" object-cover w-full  h-[85%]  inset-0  bg-white z-[-1] absolute mt-[50px]"
           autoPlay
           muted
           loop
@@ -26,17 +26,17 @@ const Home = () => {
               Dedicated Scalable Systems and Support Teams to Grow Your Business
             </p>
           </div>
-          <div className="flex flex-col md:flex-row  md:justify-start md:items-center ">
+          <div className="flex flex-col items-start md:flex-row  md:justify-start md:items-center sm:pr-20 z-[10]">
             <Link
               className="btn bg-[#3535e2]  text-white md:m-2 sm:mx-auto sm:my-2 hover:bg-[#EC2028] dark:hover:bg-[#EC2028]
-              capitalize items-center gap-x-2 dark:text-white hover:scale-105 font-bold pl-6  m-1   transition-all"
+              capitalize items-center gap-x-2 dark:text-white hover:scale-105 font-bold pl-6  m-1   transition-all w-[200px]"
               href={"/services"}
             >
               I NEED SUPPORT
             </Link>
             <Link
               className="btn bg-[#3535e2]  text-white md:m-2 sm:mx-auto sm:my-2 hover:bg-[#EC2028] dark:hover:bg-[#EC2028]
-              capitalize items-center gap-x-2 dark:text-white hover:scale-105 font-bold pl-6  m-1   transition-all"
+              capitalize items-center gap-x-2 dark:text-white hover:scale-105 font-bold pl-6  m-1   transition-all w-[200px]"
               href={"/services"}
             >
               LOOKING FOR BPO
@@ -44,7 +44,7 @@ const Home = () => {
 
             <Link
              className="btn bg-[#3535e2]  text-white md:m-2 sm:mx-auto sm:my-2 hover:bg-[#EC2028] dark:hover:bg-[#EC2028]
-              capitalize items-center gap-x-2 dark:text-white hover:scale-105 font-bold pl-6  m-1   transition-all"
+              capitalize items-center gap-x-2 dark:text-white hover:scale-105 font-bold pl-6  m-1   transition-all w-[200px]"
               href={"/services"}
             >
               CUSTOM SOFTWARE
