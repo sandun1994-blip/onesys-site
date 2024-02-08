@@ -11,7 +11,7 @@ const Home = () => {
 
       <section className=" w-full overflow-hidden min-h-[75vh]  md:min-h-[64vh] inset-0  bg-transparent bg-cover bg-no-repeat bg-center  ">
         <video
-          className=" object-cover w-full  h-[85%]  inset-0  bg-white z-[-1] absolute mt-[50px]"
+          className=" object-cover w-full  h-[90%]  inset-0  bg-white z-[-1] absolute mt-[50px]"
           autoPlay
           muted
           loop
